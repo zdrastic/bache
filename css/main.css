@@ -455,7 +455,7 @@ body {
 
 .principal {
   max-height: 560px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 .principal .container {
   max-width: 1410px;
@@ -493,7 +493,6 @@ body {
 }
 .principal__img img {
   width: 100%;
-  max-width: 550px;
   margin: 0 auto;
 }
 
@@ -509,8 +508,15 @@ body {
   }
 }
 @media (max-width: 960px) {
+  .principal {
+    max-height: 1000px;
+  }
   .principal .container {
+    max-height: 1000px;
     flex-direction: column;
     align-items: center;
+  }
+  .principal__img {
+    max-width: 550px;
   }
 }
