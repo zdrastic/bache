@@ -1,0 +1,3 @@
+//https://docs.google.com/document/d/1gdDBWkZQp_0exO2KzIsDlisE6COi413ZmThaZ8cXvZ4/edit technical specification
+//https://protulio.top/ - old version
+//https://www.figma.com/file/5upmORMWZmOgySM0e0L7EE/GoMining-1?type=design&node-id=222-2&mode=design&t=0ZfJke6g9egQ23LW-0 maket

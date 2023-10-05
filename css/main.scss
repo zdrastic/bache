@@ -10,11 +10,13 @@ body {
 	width: 100%;
 	max-width: 1920px;
 	margin: 0 auto;
+	background-color: bisque;
 }
 .header{
 	width: 100%;
 	padding: 20px 0;
 	.container {
+		width: 1440px;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -65,6 +67,7 @@ body {
 .contactus {
 	padding-top: 80px;
 	.container{
+		max-width: 1440px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -72,12 +75,12 @@ body {
 		.formv1 {margin-left: 0;}
 		.inp1 {background-color: #3C3C50;}
 	}
-
 }
 
 .contactus__info{
 	width: 100%;
 	max-width: 791px;
+	margin-left: 10px;
 	h1{
 		max-width: 791px;
 		max-height: 148px;
@@ -275,7 +278,7 @@ body {
 .ourservices {
 	.container {
 		width: 100%;
-		max-width: 1410px;
+		max-width: 1440px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -410,4 +413,33 @@ body {
 		flex-direction: column-reverse;
 		align-items: center;
 	}
+}
+
+.marketsummary {
+	.container{
+		max-width: 1920px;
+		display: flex;
+		flex-direction: column;
+
+		h2{
+		font-family: Atyp Display;
+		font-size: 56px;
+		font-weight: 500;
+		line-height: 64px;
+		letter-spacing: 0em;
+		text-align: left;
+		margin-left: 5%;
+		span{
+			color: #6396E3;
+		}
+		}
+	}
+}
+
+.marketcarousel {
+	height: 170px;
+	width: 100%;
+	max-width: 1920px;
+	background-color: beige;
+	text-align: center;
 }
