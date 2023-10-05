@@ -285,7 +285,7 @@ body {
 .ourservices__title {
 	width: 395px;
 	height: 64px;
-	margin-bottom: 32px;
+	margin: 32px auto;
 	h2{
 		margin: 0px;
 		font-family: Atyp Display;
@@ -331,14 +331,16 @@ body {
 		list-style: none;
 		padding-left: 0;
 		li{
+			margin-bottom: 4px;
 			&::before {
 				content: ""; /* Создаем псевдоэлемент */
 				display: inline-block;
 				width: 18px; /* Укажите ширину изображения */
 				height: 18px; /* Укажите высоту изображения */
-				background-image: url("//img/circle-check.png"); /* Путь к изображению */
+				background-image: url('/img/circle-check.png');
 				background-size: cover; /* Растягиваем изображение, чтобы оно заполнило маркер */
-				margin-right: 8px; /* Отступ между маркером и текстом */
+				margin-right: 9px; /* Отступ между маркером и текстом */
+				margin-top: -4px;
 				vertical-align: middle; /* Выравниваем маркер по вертикали */
 			}
 		}
@@ -346,13 +348,66 @@ body {
 }
 .ourservices__info1-img {
 	width: 100%;
-	max-width: 510px;
+	max-width: 550px;
 }
 .ourservices__info2 {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
 }
 .ourservices__info2-img {
+	width: 100%;
+	max-width: 550px;
 }
 .ourservices__info2-text {
+	width: 100%;
+	max-width: 760px;
+	h3{
+		font-family: Atyp Display;
+		font-size: 32px;
+		font-weight: 500;
+		line-height: 38px;
+		letter-spacing: 0em;
+		text-align: left;
+		span{
+			color: rgba(99, 150, 227, 1);
+		}
+	}
+	p{
+		font-family: Atyp Text;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	ul{
+		list-style: none;
+		padding-left: 0;
+		li{
+			margin-bottom: 4px;
+			&::before {
+				content: ""; /* Создаем псевдоэлемент */
+				display: inline-block;
+				width: 18px; /* Укажите ширину изображения */
+				height: 18px; /* Укажите высоту изображения */
+				background-image: url('/img/circle-check.png');
+				background-size: cover; /* Растягиваем изображение, чтобы оно заполнило маркер */
+				margin-right: 9px; /* Отступ между маркером и текстом */
+				margin-top: -4px;
+				vertical-align: middle; /* Выравниваем маркер по вертикали */
+			}
+		}
+	}
+}
+@media (max-width: 1160px){
+	.ourservices__info1{
+		flex-direction: column;
+		align-items: center;
+	}
+	.ourservices__info2{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
 }
