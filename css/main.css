@@ -285,7 +285,7 @@ body {
 }
 .ourservices .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1410px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -439,7 +439,7 @@ body {
   line-height: 64px;
   letter-spacing: 0em;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 6.6%;
 }
 .marketsummary .container h2 span {
   color: #6396E3;
@@ -451,4 +451,66 @@ body {
   max-width: 1920px;
   background-color: beige;
   text-align: center;
+}
+
+.principal {
+  max-height: 560px;
+  margin-bottom: 20px;
+}
+.principal .container {
+  max-width: 1410px;
+  display: flex;
+  flex-direction: row;
+}
+
+.principal__info {
+  max-width: 760px;
+  width: 100%;
+  border: 2px solid black;
+}
+.principal__info h2 {
+  margin: 0px;
+  font-family: Atyp Display;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  border: 2px solid red;
+}
+.principal__info p {
+  font-family: Atyp Text;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.principal__img {
+  border: 2px solid yellow;
+  width: 100%;
+}
+.principal__img img {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1380px) {
+  .principal__info h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1140px) {
+  .principal__info h2 {
+    line-height: 40px;
+    font-size: 32px;
+  }
+}
+@media (max-width: 960px) {
+  .principal .container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
