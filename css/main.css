@@ -249,16 +249,26 @@ body {
     display: none;
   }
   .contactus .container {
+    border: 2px solid black;
+    display: flex;
     flex-direction: column;
+  }
+  .contactus__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .contactus__info h1 {
     font-size: 48px;
+    text-align: center;
   }
   .contactus__info h2 {
     font-size: 24px;
+    text-align: center;
   }
   .contactus__info p {
     font-size: 16px;
+    text-align: center;
   }
   .contactus__img-1 {
     display: none;
