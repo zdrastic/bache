@@ -28,7 +28,7 @@ body {
 
 .header__menu {
   border-radius: 590px;
-  border: 0.5px solid var(--bg-dark-text, #6396E3);
+  border: 0.5px solid black;
   padding: 12px 32px;
   transition: 0.24s;
 }
@@ -169,7 +169,7 @@ body {
   border: none;
 }
 .inp1::placeholder {
-  color: #888888;
+  color: white;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -429,14 +429,18 @@ body {
     align-items: center;
   }
 }
+.marketsummary {
+  border: 5px solid blue;
+}
 .marketsummary h2 {
   font-family: Atyp Display;
   font-size: 56px;
   font-weight: 500;
   line-height: 64px;
   letter-spacing: 0em;
-  text-align: left;
   margin-left: 13.2%;
+  text-transform: uppercase;
+  border: 2px solid black;
 }
 .marketsummary h2 span {
   color: #6396E3;
@@ -578,6 +582,7 @@ body {
   position: relative;
   left: 15%;
   color: white;
+  line-height: 24px;
 }
 .benefits__card p span {
   color: #6396E3;
