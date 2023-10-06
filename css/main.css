@@ -127,8 +127,8 @@ body {
 }
 
 .formv1 {
-  width: 509px;
-  min-width: 409px;
+  max-width: 509px;
+  width: 90%;
 }
 .formv1__ss1 {
   width: 100%;
@@ -144,9 +144,9 @@ body {
 
 .inp1_wrp {
   max-width: 50%;
-  width: 49%;
+  width: 48%;
   position: relative;
-  padding: 2px;
+  padding: 4px 2px;
   border-radius: 8px;
 }
 
@@ -284,6 +284,9 @@ body {
   }
 }
 @media (max-width: 640px) {
+  .contactus__info {
+    width: 90%;
+  }
   .contactus__info h1 {
     line-height: 40px;
     font-size: 40px;
@@ -748,10 +751,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .btmform {
-    padding: 48px 0;
-    min-height: auto;
-  }
   .titlewgrad {
     font-size: 35px;
     line-height: 120%;
