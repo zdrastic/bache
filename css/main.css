@@ -283,6 +283,15 @@ body {
     max-height: 700px;
   }
 }
+@media (max-width: 640px) {
+  .contactus__info h1 {
+    line-height: 40px;
+    font-size: 40px;
+  }
+  .contactus__info h2 {
+    line-height: 24px;
+  }
+}
 .ourservices .container {
   width: 100%;
   max-width: 1410px;

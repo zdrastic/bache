@@ -277,6 +277,17 @@ body {
 		//margin: 0 auto;
 	}
 }
+@media (max-width: 640px) {
+	.contactus__info{
+		h1{
+			line-height: 40px;
+			font-size: 40px;
+		}
+		h2{
+			line-height: 24px;
+		}
+	}
+}
 //											OUR SERVICES////////////////////////////
 .ourservices {
 	.container {
