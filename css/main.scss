@@ -291,11 +291,10 @@ body {
 //											OUR SERVICES////////////////////////////
 .ourservices {
 	.container {
-		width: 100%;
-		max-width: 1410px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		padding: 0px 16px;
 	}
 }
 
@@ -407,6 +406,7 @@ body {
 		letter-spacing: 0em;
 		text-align: left;
 		padding-bottom: 16px;
+
 	}
 	ul{
 		list-style: none;
