@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 1410px;
+  width: 100%;
   max-width: 1410px;
   margin: 0 auto;
 }
@@ -544,7 +544,7 @@ body {
   max-width: 1270px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding-bottom: 24px;
 }
 
@@ -559,12 +559,12 @@ body {
   max-width: 70px;
   margin: 8% 0;
   position: relative;
-  left: 15%;
+  left: 10%;
 }
 .benefits__card p {
   width: 70%;
   position: relative;
-  left: 15%;
+  left: 10%;
   color: white;
   line-height: 24px;
 }

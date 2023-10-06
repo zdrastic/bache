@@ -8,7 +8,7 @@ body {
 	position: relative;
 }
 .container{
-	width: 1410px;
+	width: 100%;
 	max-width: 1410px;
 	margin: 0 auto;
 }
@@ -525,6 +525,7 @@ body {
 	.container {
 		padding-bottom: 24px;
 		background-color: #1F2030;
+
 		h2{
 			font-family: Atyp Display;
 			font-size: 64px;
@@ -547,7 +548,7 @@ body {
 	max-width: 1270px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	padding-bottom: 24px;
 }
 .benefits__card {
@@ -560,12 +561,12 @@ body {
 		max-width: 70px;
 		margin: 8% 0;
 		position: relative;
-		left: 15%;
+		left: 10%;
 	}
 	p{
 		width: 70%;
 		position: relative;
-		left: 15%;
+		left: 10%;
 		color: white;
 		line-height: 24px;
 		span{
