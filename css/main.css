@@ -95,7 +95,7 @@ body {
 .contactus__info h1 {
   max-width: 791px;
   max-height: 148px;
-  margin-bottom: 32px;
+  padding-bottom: 24px;
   font-family: Atyp Display;
   font-size: 64px;
   font-weight: 500;
@@ -113,6 +113,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #6396E3;
+  padding-bottom: 24px;
 }
 .contactus__info p {
   font-family: Atyp Text;
@@ -122,6 +123,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: rgb(14, 15, 31);
+  padding-bottom: 24px;
 }
 
 .formv1 {
@@ -451,7 +453,7 @@ body {
   background-color: #1F2030;
   text-align: center;
   color: #F2F2F9;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .principal {

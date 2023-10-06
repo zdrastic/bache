@@ -85,13 +85,14 @@ body {
 	h1{
 		max-width: 791px;
 		max-height: 148px;
-		margin-bottom: 32px;
+		padding-bottom: 24px;
 		font-family: Atyp Display;
 		font-size: 64px;
 		font-weight: 500;
 		line-height: 74px;
 		letter-spacing: 0em;
 		text-align: left;
+		;
 	}
 	h2{
 		max-width: 791px;
@@ -103,6 +104,7 @@ body {
 		letter-spacing: 0em;
 		text-align: left;
 		color: #6396E3;
+		padding-bottom: 24px;
 	}
 	p{
 		font-family: Atyp Text;
@@ -112,6 +114,7 @@ body {
 		letter-spacing: 0em;
 		text-align: left;
 		color: rgba(14, 15, 31, 1);
+		padding-bottom: 24px;
 	}
 }
 .formv1{
@@ -444,7 +447,7 @@ body {
 	background-color: #1F2030;
 	text-align: center;
 	color: #F2F2F9;
-	overflow: hidden;
+	overflow: auto;
 }
 //													PRINCIPAL/////////////////////////
 .principal {
