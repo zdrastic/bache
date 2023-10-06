@@ -10,7 +10,6 @@ body {
 	width: 100%;
 	max-width: 1920px;
 	margin: 0 auto;
-	background-color: bisque;
 }
 .header{
 	width: 100%;
@@ -422,7 +421,6 @@ body {
 		max-width: 1920px;
 		display: flex;
 		flex-direction: column;
-
 		h2{
 		font-family: Atyp Display;
 		font-size: 56px;
@@ -430,7 +428,7 @@ body {
 		line-height: 64px;
 		letter-spacing: 0em;
 		text-align: left;
-		margin-left: 6.6%;
+		margin-left: 13.2%;
 		span{
 			color: #6396E3;
 		}
@@ -441,8 +439,9 @@ body {
 	height: 170px;
 	width: 100%;
 	max-width: 1920px;
-	background-color: beige;
+	background-color: #1F2030;
 	text-align: center;
+	color: #F2F2F9;
 }
 //													PRINCIPAL/////////////////////////
 .principal {
@@ -458,7 +457,6 @@ body {
 .principal__info {
 	max-width: 760px;
 	width: 100%;
-	border: 2px solid black;
 	h2{
 		margin: 0px;
 		font-family: Atyp Display;
@@ -467,7 +465,6 @@ body {
 		line-height: 64px;
 		letter-spacing: 0em;
 		text-align: left;
-		border: 2px solid red;
 		}
 	p{
 		font-family: Atyp Text;
@@ -479,8 +476,8 @@ body {
 		}
 }
 .principal__img {
-	border: 2px solid yellow;
 	width: 100%;
+	max-width: 550px;
 	img{
 		width: 100%;
 		margin: 0 auto;
@@ -514,5 +511,53 @@ body {
 	}
 	.principal__img{
 		max-width: 550px;
+		margin: 20px auto;
+	}
+}
+//										BENEFITS/////////////////////////////////
+.benefits {
+	max-width: 1920px;
+	background-color: #1F2030;
+	.container {
+		max-width: 1270px;
+		h2{
+		font-family: Atyp Display;
+		font-size: 64px;
+		font-weight: 500;
+		line-height: 74px;
+		letter-spacing: 0em;
+		text-align: left;
+		color: #6396E3;
+		text-transform: uppercase;
+		}
+	}
+}
+.benefits__cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px auto;
+	padding-bottom: 20px;
+
+}
+.benefits__card {
+	width: 30%;
+	border: 3px solid blue;
+	background-color: #15172B;
+	padding: 24px 0;
+	border-radius: 16px;
+	img{
+		margin-top: 5%;
+		position: relative;
+		left: 15%;
+	}
+	p{
+		width: 70%;
+		position: relative;
+		left: 15%;
+		color: #F7F7F7;
+		span{
+		color: #6396E3;
+		}
 	}
 }
