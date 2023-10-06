@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-  <title>Bache Standard Capital</title>
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" type="text/css" href="./fonts/Atype/stylesheet.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
-
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>Bache Standard Capital</title>
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/carousel.css">
+		<link rel="stylesheet" type="text/css" href="./fonts/Atype/stylesheet.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css" />
+		<link rel="stylesheet" type="text/css" href="./fonts/Atype/stylesheet.css" />
+		<script src="./js/" defer></script>
+		<style>
+			.telegram-widget {
+				position: fixed;
+				bottom: 20px;
+				right: 20px;
+				z-index: 9999;
+			}
+	
+			.telegram-button {
+				width: 70px;
+				height: 70px;
+				background-color: #0088cc;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				transition: background-color 0.3s ease;
+			}
+	
+			.telegram-button img {
+				width: 80%;
+				height: auto;
+			}
+	
+			.telegram-button:hover {
+				background-color: #0077b3;
+			}
+		</style>
+		<style>
+			/* Создание псевдо-элемента для создания отступа вверх */
+			#section1::before {
+				content: "";
+				display: block;
+				height: 13vh;
+				/* Задайте высоту для отступа, чтобы пункт был посередине */
+				margin-top: -50px;
+				/* Половина высоты пункта, чтобы он был точно посередине */
+				visibility: hidden;
+			}
+		</style>
+		<style>
+			/* Стили для ссылки */
+			.miningkey_item__ss1 a {
+				color: white;
+				/* Белый цвет текста */
+				text-decoration: underline;
+				/* Подчеркивание текста */
+			}
+		</style>
+		<style>
+			.advantages {
+				margin-top: -200px;
+				/* Уменьшит расстояние сверху */
+			}
+		</style>
+	</head>
 <body>
 <div class="wrapper">
 <header class="header">
@@ -143,7 +202,166 @@
 	<div class="marketsummary" id="market">
 		<div class="container">
 			<h2><span>Market</span> summary</h2>
-			<div class="marketcarousel">Каруселька з курсами</div>
+			<div class="marketcarousel">
+				
+				<div class="currency currency-1">
+
+					<div class="currency__item coin-1">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-2">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-3">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-4">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-5">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="currency currency-2">
+
+					<div class="currency__item coin-1">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-2">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-3">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-4">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="currency__item coin-5">
+						<img class="currency__image" src="" alt="">
+						<div class="currency__content">
+							<h3 class="currency__name">{name}</h3>
+							<div class="currency__info">
+								<p class="currency__price"><span class="currency__price-value">{price}
+									</span>USD</p>
+								<h4 class="currency__percent-block">
+									<span class="currency__sign">+</span>
+									<span class="currency__percent">{percent}</span>%
+								</h4>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="principal">
@@ -190,7 +408,21 @@
 			</div>
 		</div>
 	</div>
-	<div class="bigguys"></div>
+	<div class="bigguys">
+		<div class="container">
+			<div class="bigguys__info">
+				<h2>WE WORK WITH REALLY <br><span>BIG GUYS!</span></h2>
+				<div class="bigguys__info-pictures">
+					<img src="./img/bigguys_1.png" alt="">
+					<img src="./img/bigguys_2.png" alt="">
+					<img src="./img/bigguys_3.png" alt="">
+				</div>
+			</div>
+			<div class="bigguys__img">
+				<img src="./img/bigguys_4.png" alt="">
+			</div>
+		</div>
+	</div>
 </main>
 </div>
 </body>

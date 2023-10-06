@@ -5,6 +5,7 @@ body {
 .wrapper{
 	width: 100%;
 	overflow: hidden;
+	position: relative;
 }
 .container{
 	width: 100%;
@@ -520,6 +521,7 @@ body {
 	background-color: #1F2030;
 	.container {
 		max-width: 1270px;
+		padding-bottom: 24px;
 		h2{
 		font-family: Atyp Display;
 		font-size: 64px;
@@ -586,3 +588,39 @@ body {
 	}
 }
 //									BIG GUYS//////////////////////////////
+
+.bigguys {
+	width: 100%;
+	max-width: 1920px;
+	.container{
+		max-height: 800px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+.bigguys__info {
+	left: 10%;
+	position: relative;
+	border: 2px solid black;
+	width: 500px;
+	h2{
+		font-family: Atyp Display;
+		font-size: 64px;
+		font-weight: 500;
+		line-height: 74px;
+		letter-spacing: 0em;
+		text-align: left;
+		span{
+			color: #6396E3;
+		}
+	}
+
+}
+.bigguys__info-pictures {
+}
+.bigguys__img {
+	position: relative;
+	float: right;
+	height: 100%;
+}
