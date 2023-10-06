@@ -429,9 +429,6 @@ body {
     align-items: center;
   }
 }
-.marketsummary {
-  border: 5px solid blue;
-}
 .marketsummary h2 {
   font-family: Atyp Display;
   font-size: 56px;
@@ -440,7 +437,6 @@ body {
   letter-spacing: 0em;
   margin-left: 13.2%;
   text-transform: uppercase;
-  border: 2px solid black;
 }
 .marketsummary h2 span {
   color: #6396E3;
@@ -683,9 +679,12 @@ body {
   }
 }
 .btmform {
-  min-height: 308px;
-  background-color: rgba(31, 32, 48, 0.9);
-  padding: 40px 0px 0px 0px;
+  min-height: 334px;
+  background-image: url("../img/photo_2023-10-06_22-01-30.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .btmform .container {
   width: 100%;
@@ -693,6 +692,7 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+  border: 2px solid yellow;
 }
 
 .titlewgrad {
