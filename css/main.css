@@ -447,13 +447,12 @@ body {
 }
 
 .marketcarousel {
-  height: 170px;
+  /*height: 170px;
   width: 100%;
   max-width: 1410px;
   background-color: #1F2030;
   text-align: center;
-  color: #F2F2F9;
-  overflow: auto;
+  color: #F2F2F9;*/
 }
 
 .principal {
