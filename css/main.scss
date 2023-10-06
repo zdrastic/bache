@@ -8,7 +8,8 @@ body {
 	position: relative;
 }
 .container{
-	width: 100%;
+	width: 1410px;
+	max-width: 1410px;
 	margin: 0 auto;
 }
 .header{
@@ -428,14 +429,12 @@ body {
 		font-weight: 500;
 		line-height: 64px;
 		letter-spacing: 0em;
-		margin-left: 13.2%;
 		text-transform: uppercase;
 		span{
 			color: #6396E3;
 		}
 	.container{
-		display: flex;
-		flex-direction: column;
+
 		}
 	}
 }
@@ -452,7 +451,6 @@ body {
 	max-height: 560px;
 	margin-bottom: 80px;
 	.container {
-		max-width: 1410px;
 		display: flex;
 		flex-direction: row;
 		
@@ -525,9 +523,6 @@ body {
 .benefits {
 	background-color: #1F2030;
 	.container {
-		margin: 0 auto;
-		width: 100%;
-		max-width: 1270px;
 		padding-bottom: 24px;
 		h2{
 			font-family: Atyp Display;
@@ -691,7 +686,6 @@ body {
 		align-items: center;
 		flex-direction: row;
 		justify-content: space-evenly;
-		border: 2px solid yellow;
     }
 }
 

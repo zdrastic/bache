@@ -10,7 +10,8 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 1410px;
+  max-width: 1410px;
   margin: 0 auto;
 }
 
@@ -434,17 +435,11 @@ body {
   font-weight: 500;
   line-height: 64px;
   letter-spacing: 0em;
-  margin-left: 13.2%;
   text-transform: uppercase;
 }
 .marketsummary h2 span {
   color: #6396E3;
 }
-.marketsummary h2 .container {
-  display: flex;
-  flex-direction: column;
-}
-
 .marketcarousel {
   height: 170px;
   width: 100%;
@@ -459,7 +454,6 @@ body {
   margin-bottom: 80px;
 }
 .principal .container {
-  max-width: 1410px;
   display: flex;
   flex-direction: row;
 }
@@ -529,9 +523,6 @@ body {
   background-color: #1F2030;
 }
 .benefits .container {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1270px;
   padding-bottom: 24px;
 }
 .benefits .container h2 {
@@ -691,7 +682,6 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 2px solid yellow;
 }
 
 .titlewgrad {
