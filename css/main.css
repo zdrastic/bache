@@ -349,7 +349,7 @@ body {
   display: inline-block;
   width: 18px; /* Укажите ширину изображения */
   height: 18px; /* Укажите высоту изображения */
-  background-image: url("/img/circle-check.png");
+  background-image: url("./img/circle-check.png");
   background-size: cover; /* Растягиваем изображение, чтобы оно заполнило маркер */
   margin-right: 9px; /* Отступ между маркером и текстом */
   margin-top: -4px;
