@@ -24,12 +24,12 @@ body {
 }
 .header__menu{
 	border-radius: 590px;
-	border: 0.5px solid var(--bg-dark-text, #0E0F1F);
+	border: 0.5px solid var(--bg-dark-text, #6396E3);
 	padding: 12px 32px;
 	transition: 0.24s;
 	&:hover {
-		border: 0.5px solid var(--bg-dark-text, #7540EF);
-		color: #7540EF;
+		border: 0.5px solid var(--bg-dark-text, #6396E3);
+		color: #6396E3;
   }
 	a {
 		color: var(--bg-dark-text, #0E0F1F);
@@ -41,7 +41,7 @@ body {
 		transition: 0.24s;
 		margin: 0px 8px;
 		&:hover{
-			 color: #7540EF;
+			 color: #6396E3;
 		}
   }
 }
@@ -57,7 +57,7 @@ body {
     line-height: 24px;
     text-transform: uppercase;
     border-radius: 99px;
-    background: var(--main, #7540EF);
+    background: var(--main, #0047B1);
     padding: 12px 23px 10px 23px;
     transition: 0.24s;
     &:hover {
@@ -121,7 +121,7 @@ body {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-between;
 		margin-bottom: 20px;
 	}
 	&__ss2 {
@@ -162,6 +162,7 @@ body {
 		 font-weight: 400;
 		 line-height: 22px;
 		 text-transform: capitalize;
+		 padding-left: 16px;
 	}
 }
 .btnsubm1 {
@@ -172,7 +173,7 @@ body {
 	align-items: center;
 	border-radius: 56px;
 	border: none;
-	background: #7540EF;
+	background: #0047B1;
 	color: #FFF;
 	text-align: center;
 	font-size: 16px;
@@ -197,7 +198,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	border-radius: 56px;
-	background: #7540EF;
+	background: #0047B1;
 	border: none;
 	transition: 0.24s;
 
@@ -287,7 +288,8 @@ body {
 .ourservices__title {
 	width: 395px;
 	height: 64px;
-	margin: 32px auto;
+	border: 2px solid black;
+	margin-bottom: 64px;
 	h2{
 		margin: 0px;
 		font-family: Atyp Display;
@@ -317,6 +319,7 @@ body {
 		line-height: 38px;
 		letter-spacing: 0em;
 		text-align: left;
+		padding-bottom: 24px;
 		span{
 			color: rgba(99, 150, 227, 1);
 		}
@@ -328,24 +331,19 @@ body {
 		line-height: 24px;
 		letter-spacing: 0em;
 		text-align: left;
+		padding-bottom: 16px;
 	}
+	
 	ul{
 		list-style: none;
-		padding-left: 0;
 		li{
-			margin-bottom: 4px;
-			&::before {
-				content: ""; /* Создаем псевдоэлемент */
-				display: inline-block;
-				width: 18px; /* Укажите ширину изображения */
-				height: 18px; /* Укажите высоту изображения */
-				background-image: url('../img/circle-check.png');
-				background-size: cover; /* Растягиваем изображение, чтобы оно заполнило маркер */
-				margin-right: 9px; /* Отступ между маркером и текстом */
-				margin-top: -4px;
-				vertical-align: middle; /* Выравниваем маркер по вертикали */
-			}
+			margin-bottom: 12px;
+			padding-left: 24px;
+			background-image: url("../img/circle-check.png");
+			background-repeat: no-repeat;
+			background-position: 0 50%;
 		}
+
 	}
 }
 .ourservices__info1-img {
@@ -378,6 +376,7 @@ body {
 		line-height: 38px;
 		letter-spacing: 0em;
 		text-align: left;
+		padding-bottom: 24px;
 		span{
 			color: rgba(99, 150, 227, 1);
 		}
@@ -389,23 +388,18 @@ body {
 		line-height: 24px;
 		letter-spacing: 0em;
 		text-align: left;
+		padding-bottom: 16px;
 	}
 	ul{
 		list-style: none;
 		padding-left: 0;
 		li{
-			margin-bottom: 4px;
-			&::before {
-				content: ""; /* Создаем псевдоэлемент */
-				display: inline-block;
-				width: 18px; /* Укажите ширину изображения */
-				height: 18px; /* Укажите высоту изображения */
-				background-image: url('../img/circle-check.png');
-				background-size: cover; /* Растягиваем изображение, чтобы оно заполнило маркер */
-				margin-right: 9px; /* Отступ между маркером и текстом */
-				margin-top: -4px;
-				vertical-align: middle; /* Выравниваем маркер по вертикали */
-			}
+			margin-bottom: 12px;
+			margin-bottom: 12px;
+			padding-left: 24px;
+			background-image: url("../img/circle-check.png");
+			background-repeat: no-repeat;
+			background-position: 0 50%;
 		}
 	}
 }
@@ -796,7 +790,6 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
-		border: 2px solid aqua;
 	}
 }
 .footer__logomenu {
@@ -828,6 +821,8 @@ body {
 	letter-spacing: 0em;
 	text-align: left;
 	color: lightgrey;
+	padding-top: 16px;
+	border-top: 2px solid #6396E3;
 }
 }
 @media (max-width: 1010px) {
