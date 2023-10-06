@@ -423,10 +423,7 @@ body {
 }
 //								MARKET SUMMARY////////////////////////////
 .marketsummary {
-	.container{
-		display: flex;
-		flex-direction: column;
-		h2{
+	h2{
 		font-family: Atyp Display;
 		font-size: 56px;
 		font-weight: 500;
@@ -434,9 +431,14 @@ body {
 		letter-spacing: 0em;
 		text-align: left;
 		margin-left: 13.2%;
+		
 		span{
 			color: #6396E3;
 		}
+	.container{
+		display: flex;
+		flex-direction: column;
+		
 		}
 	}
 }
