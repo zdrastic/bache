@@ -21,7 +21,7 @@ body {
   padding: 20px 0;
 }
 .header .container {
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -588,11 +588,12 @@ body {
   }
   .benefits__card {
     min-width: 350px;
-    width: 75%;
+    width: 90%;
     margin: 10px 0px;
   }
 }
 .bigguys {
+  display: none;
   width: 100%;
   max-width: 1920px;
 }
