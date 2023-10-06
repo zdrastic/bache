@@ -421,7 +421,6 @@ body {
 //								MARKET SUMMARY////////////////////////////
 .marketsummary {
 	.container{
-		max-width: 1920px;
 		display: flex;
 		flex-direction: column;
 		h2{
@@ -523,7 +522,6 @@ body {
 }
 //										BENEFITS/////////////////////////////////
 .benefits {
-	max-width: 1920px;
 	background-color: #1F2030;
 	.container {
 		margin: 0 auto;
@@ -608,7 +606,6 @@ body {
 
 .bigguys {
 	width: 100%;
-	max-width: 1920px;
 	.container{
 		max-width: 1665px;
 		display: flex;
@@ -794,7 +791,6 @@ body {
 
 .footer {
 	width: 100%;
-	max-width: 1920px;
 	height: 305px;
 	background-color: #0E0F1F;
 	.container {
