@@ -14,9 +14,6 @@
 	<link rel="stylesheet" href="./fonts/Atype/stylesheet.css" />
 
 		<script src="./js/carousel.js" defer></script>
-		<script src="./js/script.js" defer></script>
-		<script src="./js/jquery-3.5.1.min.js" defer></script>
-		<script src="./js/jquery.maskedinput.js" defer></script>
 
 		<style>
 			.telegram-widget {
@@ -382,7 +379,7 @@
 	</div>
 	<div class="benefits">
 		<div class="container">
-			<h2>benefits of <br> working with us</h2>
+			<h2>benefits of <br> <span>working with us</span></h2>
 			<div class="benefits__cards">
 				<div class="benefits__card">
 					<img src="./img/benefit_1.png" alt="" srcset="">
@@ -428,6 +425,39 @@
 			</div>
 		</div>
 	</div>
+	<div class="btmform">
+		<div class="container">
+		  <h2 class="titlewgrad"><span>START</span> MAKING
+			 PROFIT <span>TODAY</span></h2>
+
+		  <div class="formv1">
+			 <form class="myForm2 form_send" id="form_2">
+				<input type="hidden" name="dialCode" value="" class="code">
+				<input type="hidden" name="country" value="" class="country">
+				<div class="formv1__ss1">
+				  <div class="inp1_wrp">
+					<input class="inp1 inpname" type="text" name="name" placeholder="Name" maxlength="200" required>
+				</div>
+				  <div class="inp1_wrp">
+					<input class="inp1 phone_mask2" maxlength="20" type="number" name="tel" oninput="validatePhoneInput(this)" required>
+				</div>
+				  <div class="inp1_wrp inp1_wrp_full">
+					 <input class="inp1 inpemail" maxlength="200" id="phoneInput" type="email" name="email" placeholder="email" required>
+				  </div>
+				</div>
+
+				<div class="formv1__ss2">
+				  <button type="submit" class="btnsubm1 sbm">Get Consultation</button>
+				  <button type="submit" class="btnsubm2 sbm">
+					 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" viewBox="0 0 31 30" fill="none">
+						<path d="M20.5049 11.7675L9.74614 22.5262L7.97864 20.7588L18.7361 10H9.25489V7.5H23.0049V21.25H20.5049V11.7675Z" fill="white"/>
+					 </svg>
+				  </button>
+				</div>
+			 </form>
+		  </div>
+		</div>
+	 </div>
 </main>
 </div>
 </body>
