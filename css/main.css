@@ -302,6 +302,7 @@ body {
   line-height: 64px;
   letter-spacing: 0em;
   text-align: center;
+  text-transform: uppercase;
 }
 .ourservices__title h2 span {
   color: rgb(99, 150, 227);
@@ -326,6 +327,7 @@ body {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
+  text-transform: uppercase;
   padding-bottom: 24px;
 }
 .ourservices__info1-text h3 span {
@@ -386,6 +388,7 @@ body {
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
+  text-transform: uppercase;
   padding-bottom: 24px;
 }
 .ourservices__info2-text h3 span {
@@ -425,7 +428,7 @@ body {
   }
 }
 .marketsummary .container {
-  max-width: 1410px;
+  max-width: 1920px;
   display: flex;
   flex-direction: column;
 }
@@ -474,6 +477,10 @@ body {
   line-height: 64px;
   letter-spacing: 0em;
   text-align: left;
+  padding-bottom: 24px;
+}
+.principal__info h2 span {
+  color: #6396E3;
 }
 .principal__info p {
   font-family: Atyp Text;
@@ -482,6 +489,7 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  padding-bottom: 16px;
 }
 
 .principal__img {
@@ -537,6 +545,7 @@ body {
   text-align: left;
   color: white;
   text-transform: uppercase;
+  padding: 40px 0px;
 }
 .benefits .container h2 span {
   color: #6396E3;
@@ -549,18 +558,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-bottom: 24px;
 }
 
 .benefits__card {
   width: 30%;
-  border: 3px solid blue;
+  border: 3px solid #6396E3;
   background-color: #15172B;
   padding: 16px 0;
   border-radius: 16px;
 }
 .benefits__card img {
   max-width: 70px;
-  margin-top: 5%;
+  margin: 8% 0;
   position: relative;
   left: 15%;
 }
@@ -618,6 +628,7 @@ body {
   left: 5%;
 }
 .bigguys__info h2 {
+  padding: 24px 0px;
   font-family: Atyp Display;
   font-size: 64px;
   font-weight: 500;
@@ -670,7 +681,7 @@ body {
 }
 .btmform {
   min-height: 308px;
-  background-color: darkgrey;
+  background-color: rgba(31, 32, 48, 0.9);
   padding: 40px 0px 0px 0px;
 }
 .btmform .container {
@@ -789,16 +800,17 @@ body {
 }
 
 .footer__menu {
-  width: 55%;
+  width: 60%;
   max-width: 710px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 .footer__menu a {
   text-transform: uppercase;
   color: white;
+  margin: 0px 8px;
+  line-height: 24px;
 }
 
 .footer__copyrights p {

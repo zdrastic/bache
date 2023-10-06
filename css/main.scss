@@ -297,6 +297,7 @@ body {
 		line-height: 64px;
 		letter-spacing: 0em;
 		text-align: center;
+		text-transform: uppercase;
 		span{
 			color: rgba(99, 150, 227, 1)
 		}
@@ -319,6 +320,7 @@ body {
 		line-height: 38px;
 		letter-spacing: 0em;
 		text-align: left;
+		text-transform: uppercase;
 		padding-bottom: 24px;
 		span{
 			color: rgba(99, 150, 227, 1);
@@ -377,6 +379,7 @@ body {
 		line-height: 38px;
 		letter-spacing: 0em;
 		text-align: left;
+		text-transform: uppercase;
 		padding-bottom: 24px;
 		span{
 			color: rgba(99, 150, 227, 1);
@@ -418,7 +421,7 @@ body {
 //								MARKET SUMMARY////////////////////////////
 .marketsummary {
 	.container{
-		max-width: 1410px;
+		max-width: 1920px;
 		display: flex;
 		flex-direction: column;
 		h2{
@@ -466,6 +469,10 @@ body {
 		line-height: 64px;
 		letter-spacing: 0em;
 		text-align: left;
+		padding-bottom: 24px;
+		span{
+			color: #6396E3;
+		}
 		}
 	p{
 		font-family: Atyp Text;
@@ -474,6 +481,7 @@ body {
 		line-height: 24px;
 		letter-spacing: 0em;
 		text-align: left;
+		padding-bottom: 16px;
 		}
 }
 .principal__img {
@@ -531,6 +539,7 @@ body {
 			text-align: left;
 			color: white;
 			text-transform: uppercase;
+			padding: 40px 0px;
 			span{
 				color: #6396E3;
 			}
@@ -544,16 +553,17 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	padding-bottom: 24px;
 }
 .benefits__card {
 	width: 30%;
-	border: 3px solid blue;
+	border: 3px solid #6396E3;
 	background-color: #15172B;
 	padding: 16px 0;
 	border-radius: 16px;
 	img{
 		max-width: 70px;
-		margin-top: 5%;
+		margin: 8% 0;
 		position: relative;
 		left: 15%;
 	}
@@ -613,6 +623,7 @@ body {
 	position: relative;
 	left: 5%;
 	h2{
+		padding: 24px 0px;
 		font-family: Atyp Display;
 		font-size: 64px;
 		font-weight: 500;
@@ -670,7 +681,7 @@ body {
 //								FORM BOTTOM///////////////////////////////////
 .btmform {
     min-height: 308px;
-    background-color: darkgrey;
+    background-color: rgba(31, 32, 48, 0.9);
     padding: 40px 0px 0px 0px;
     .container {
 		width: 100%;
@@ -802,15 +813,17 @@ body {
 	justify-content: space-between;
 }
 .footer__menu {
-	width: 55%;
+	width: 60%;
 	max-width: 710px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	//justify-content: space-around;
 	flex-wrap: wrap;
 	a{
 		text-transform: uppercase;
 		color: white;
+		margin: 0px 8px;
+		line-height: 24px;
 	}
 }
 
