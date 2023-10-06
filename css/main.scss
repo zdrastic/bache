@@ -521,9 +521,10 @@ body {
 }
 //										BENEFITS/////////////////////////////////
 .benefits {
-	background-color: #1F2030;
+
 	.container {
 		padding-bottom: 24px;
+		background-color: #1F2030;
 		h2{
 			font-family: Atyp Display;
 			font-size: 64px;
@@ -604,7 +605,6 @@ body {
 .bigguys {
 	width: 100%;
 	.container{
-		max-width: 1665px;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
@@ -615,7 +615,6 @@ body {
 	max-width: 765px;
 	min-height: 269px;
 	position: relative;
-	left: 5%;
 	h2{
 		padding: 24px 0px;
 		font-family: Atyp Display;
@@ -675,12 +674,12 @@ body {
 //								FORM BOTTOM///////////////////////////////////
 .btmform {
     min-height: 334px;
-    background-image: url("../img/photo_2023-10-06_22-01-30.jpg");
 	 background-size: cover;
 	 display: flex;
-	 flex-direction: column;
+
 	 justify-content: center;
     .container {
+		background-image: url("../img/photo_2023-10-06_22-01-30.jpg");
 		width: 100%;
 		display: flex;
 		align-items: center;
