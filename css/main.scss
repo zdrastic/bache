@@ -288,7 +288,6 @@ body {
 .ourservices__title {
 	width: 395px;
 	height: 64px;
-	border: 2px solid black;
 	margin-bottom: 64px;
 	h2{
 		margin: 0px;
@@ -308,6 +307,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	width: 100%;
+	padding-bottom: 40px;
 }
 .ourservices__info1-text {
 	width: 100%;
@@ -342,6 +342,7 @@ body {
 			background-image: url("../img/circle-check.png");
 			background-repeat: no-repeat;
 			background-position: 0 50%;
+			line-height: 24px;
 		}
 
 	}
@@ -400,6 +401,7 @@ body {
 			background-image: url("../img/circle-check.png");
 			background-repeat: no-repeat;
 			background-position: 0 50%;
+			line-height: 24px;
 		}
 	}
 }
@@ -416,7 +418,7 @@ body {
 //								MARKET SUMMARY////////////////////////////
 .marketsummary {
 	.container{
-		max-width: 1920px;
+		max-width: 1410px;
 		display: flex;
 		flex-direction: column;
 		h2{
@@ -436,10 +438,11 @@ body {
 .marketcarousel {
 	height: 170px;
 	width: 100%;
-	max-width: 1920px;
+	max-width: 1410px;
 	background-color: #1F2030;
 	text-align: center;
 	color: #F2F2F9;
+	overflow: hidden;
 }
 //													PRINCIPAL/////////////////////////
 .principal {
