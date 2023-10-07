@@ -127,13 +127,13 @@ body {
 	}
 }
 .formv1{
-	max-width: 509px;
+	max-width: 470px;
 	width: 100%;
 	&__ss1 {
 		width: 100%;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: center;
+		justify-content: space-between;
 		margin-bottom: 20px;
 	}
 	&__ss2 {
@@ -143,10 +143,11 @@ body {
 }
 .inp1_wrp {
 	max-width: 300px;
-	width: 50%;
+	width: 48%;
 	position: relative;
-	padding: 4px 4px;
+	padding: 4px 0px;
 	border-radius: 8px;
+
 	
 }
 .inp1_wrp_full{
