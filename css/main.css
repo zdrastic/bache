@@ -139,13 +139,13 @@ body {
 
 .formv1 {
   max-width: 509px;
-  width: 90%;
+  width: 100%;
 }
 .formv1__ss1 {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .formv1__ss2 {
@@ -154,10 +154,10 @@ body {
 }
 
 .inp1_wrp {
-  max-width: 50%;
-  width: 48%;
+  max-width: 300px;
+  width: 50%;
   position: relative;
-  padding: 4px 2px;
+  padding: 4px 4px;
   border-radius: 8px;
 }
 
