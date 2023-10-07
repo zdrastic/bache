@@ -84,98 +84,19 @@ window.addEventListener("DOMContentLoaded", function () {
 //     return false;
 // });
 
-$("body").on('click', '[href*="#"]', function(e){
-    var fixed_offset = 100;
-    $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-    e.preventDefault();
-  });
+// $("body").on('click', '[href*="#"]', function(e){
+//     var fixed_offset = 100;
+//     $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+//     e.preventDefault();
+//   });
 
 // END  menu smooth scroll
 
-
-$('.calc_period__item').on('click', function () {
-    $('.calc_period__item').removeClass('active');
-    $(this).toggleClass('active');
-});
-
-
-$('.calc_options__itm').on('click', function () {
-    $('.calc_options__itm').removeClass('active');
-    $(this).toggleClass('active');
-});
-
-
-$('.close').on('click', function () {
-    $('.popup').fadeOut('fast');
-});
 
 
 // calculator 
 
 
-
-document.addEventListener("DOMContentLoaded", function () {
-    var input1 = document.querySelector(".MyInput");
-    var optionItems = document.querySelectorAll(".calc_options__itm");
-    var periodItems = document.querySelectorAll(".calc_period__item");
-    var sumBlock = document.querySelector(".calc_sum__sum");
-    var prcBlock = document.querySelector(".calc_sum__prc");
-
-    function calculateSum() {
-        var inputValue = parseFloat(input1.value);
-        var sum = inputValue;
-
-        // Получение значения периода
-        var selectedPeriod = 0;
-        periodItems.forEach(function (periodItem) {
-            if (periodItem.classList.contains("selected")) {
-                selectedPeriod = parseFloat(periodItem.dataset.period);
-            }
-        });
-
-        // Умножение на проценты в зависимости от выбранного периода
-        var percentage = 45;
-        if (selectedPeriod === 2) {
-            percentage = 90;
-        } else if (selectedPeriod === 3) {
-            percentage = 135;
-        }
-
-        sum += (inputValue * (percentage / 100));
-
-        sumBlock.textContent = sum;
-        prcBlock.textContent = percentage + "%";
-    }
-
-    // Обработчик события ввода в поле ввода
-    input1.addEventListener("input", function () {
-        calculateSum();
-    });
-
-    // Обработчик события клика на блоках optionitem
-    optionItems.forEach(function (optionItem) {
-        optionItem.addEventListener("click", function () {
-            var content = optionItem.querySelector("span").textContent.trim();
-            var value = parseFloat(content);
-
-            input1.value = value;
-            calculateSum();
-        });
-    });
-
-    // Обработчик события клика на кнопках периода
-    periodItems.forEach(function (periodItem) {
-        periodItem.addEventListener("click", function () {
-            periodItems.forEach(function (item) {
-                item.classList.remove("selected");
-            });
-
-            periodItem.classList.add("selected");
-
-            calculateSum();
-        });
-    });
-});
 
 
 

@@ -42,18 +42,11 @@ const renderCoin = async (coinID, elementClass) => {
 
 }
 // getCoins()
-renderCoin("ethereum", ".coin-1")
-renderCoin("litecoin", ".coin-2")
-renderCoin("bitcoin", ".coin-3")
-renderCoin("ripple", ".coin-4")
-renderCoin("solana", ".coin-5")
-
-
-const show = async () => {
-    const res = await fetch(API_URL + `/coins/list`);
-    let data = await res.json()
-
-    console.log(data);
-
+if(document.querySelector('.currency-1')) {
+    renderCoin("ethereum", ".coin-1")
+    renderCoin("litecoin", ".coin-2")
+    renderCoin("bitcoin", ".coin-3")
+    renderCoin("ripple", ".coin-4")
+    renderCoin("solana", ".coin-5")
 }
-// show()
+
