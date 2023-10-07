@@ -1,5 +1,5 @@
 <?php
-$to = "yurish4e@gmail.com";  // Почта получателя4
+$to = "zdrastic90@gmail.com";  // Почта получателя4
 // $to = "alalal@gmail.com";  // Почта получателя4
 $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
 //Кодировка письма
@@ -33,8 +33,8 @@ $message = '
                 </html>';
 if (mail($to, $subject, $message, $headers)) {
   header("HTTP/1.1 200 OK");  
-  header("location: /thankyou.html");
+  header("location: ./thankyou.html");
 } else {
   header("HTTP/1.1 500 Server Error");
-  header('location: /error.html');
+  header('location: ./index.html');
 }

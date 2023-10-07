@@ -153,16 +153,11 @@ text-transform: uppercase;
 
 /* FIXES */
 
-.inp1_wrp {
-  //width: 240px;
-}
 
 .inp1::placeholder {
   padding-left: 8px;
 }
-.inp1 {
-  //padding: 13px 0 13px 16px;
-}
+
 
 @media screen and (max-width: 1410px) {
   * {

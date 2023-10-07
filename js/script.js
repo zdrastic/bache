@@ -76,19 +76,19 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 // menu smooth scroll
-// var $page = $('html, body');
-// $('.smoothscrl').click(function () {
-//     $page.animate({
-//         scrollTop: $($.attr(this, 'href')).offset().top
-//     }, 400);
-//     return false;
-// });
+ var $page = $('html, body');
+ $('.smoothscrl').click(function () {
+     $page.animate({
+         scrollTop: $($.attr(this, 'href')).offset().top
+    }, 400);
+     return false;
+ });
 
-// $("body").on('click', '[href*="#"]', function(e){
-//     var fixed_offset = 100;
-//     $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
-//     e.preventDefault();
-//   });
+ $("body").on('click', '[href*="#"]', function(e){
+     var fixed_offset = 100;
+     $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
+     e.preventDefault();
+   });
 
 // END  menu smooth scroll
 
