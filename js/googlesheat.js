@@ -92,7 +92,7 @@ forms.forEach((form) => {
       // tel.value = "";
       // message.value = "";
       // alert("Спасибо за заявку!");
-      window.location.replace("/thankyou.html");
+      window.location.replace("./thankyou.html");
     }
     if (result.type === "error") {
       alert(`Ошибка( ${result.errors}`);
