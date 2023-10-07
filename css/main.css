@@ -9,6 +9,10 @@ body {
   position: relative;
 }
 
+.wrapper__home {
+  background: url("../img/bg.png") center top no-repeat;
+}
+
 .container {
   width: 100%;
   max-width: 1410px;
@@ -29,7 +33,7 @@ body {
   max-width: 1440px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .header__menu {
@@ -78,6 +82,7 @@ body {
 
 .contactus {
   padding-top: 80px;
+  margin-bottom: 100px;
 }
 .contactus .container {
   max-width: 1440px;
@@ -85,6 +90,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 16px;
 }
 .contactus .container .formv1 {
   margin-left: 0;
@@ -231,9 +237,16 @@ body {
 
 .contactus__img-1 {
   width: 100%;
+  height: 730px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contactus__img-1 img {
+  aspect-ratio: 733/810;
   width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .contactus__img-2 {
@@ -280,14 +293,6 @@ body {
     font-size: 16px;
     text-align: center;
   }
-  .contactus__img-1 {
-    display: none;
-  }
-  .contactus__img-2 {
-    display: block;
-    aspect-ratio: 1;
-    width: 100%;
-  }
 }
 @media (max-width: 640px) {
   .contactus__info {
@@ -332,7 +337,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 
 .ourservices__info1-text {
@@ -480,6 +485,7 @@ body {
 .principal__info {
   max-width: 760px;
   width: 100%;
+  margin-right: 100px;
 }
 .principal__info h2 {
   margin: 0px;
@@ -543,6 +549,9 @@ body {
     max-width: 550px;
     margin: 20px auto;
   }
+}
+.benefits {
+  background-color: #1f2030;
 }
 .benefits .container {
   padding-bottom: 24px;
@@ -693,10 +702,10 @@ body {
   min-height: 334px;
   background-size: cover;
   display: flex;
+  background-image: url("../img/photo_2023-10-06_22-01-30.jpg");
   justify-content: center;
 }
 .btmform .container {
-  background-image: url("../img/photo_2023-10-06_22-01-30.jpg");
   width: 100%;
   display: flex;
   align-items: center;

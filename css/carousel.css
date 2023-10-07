@@ -152,51 +152,18 @@ text-transform: uppercase;
 }
 
 /* FIXES */
-.wrapper__home {
-  background: url('../img/bg.png') center top no-repeat;
-}
 
-.benefits {
-  background-color: #1f2030;
-}
-.principal__info {
-  margin-right: 100px;
-}
 .inp1_wrp {
   width: 240px;
 }
-.contactus {
-  margin-bottom: 100px;
-}
-.contactus__img-1 {
-  height: 730px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.contactus__img-1 img {
-  aspect-ratio: 733/810;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-.ourservices__info1 {
-  padding-bottom: 100px;
-}
+
 .inp1::placeholder {
   padding-left: 0;
 }
 .inp1 {
   padding: 13px 0 13px 16px;
 }
-.btmform {
-  background-image: url(../img/photo_2023-10-06_22-01-30.jpg);
 
-}
-.btmform .container {
-  background-image: none;
-
-}
 @media screen and (max-width: 1410px) {
   * {
     box-sizing: border-box;
